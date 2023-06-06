@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="st.css">
+	</head>
+	<body bgcolor="black">
+		<script src="a.js"></script>
+		<center>
+			<br>
+			<div class="clock1">
+				<t1 id = "shours">0</t1>
+				<t1 id = "spoints1"><span style="color: black;">:</span></t1>
+				<t1 id = "sminutes">0</t1>
+				<t1 id = "spoints2"><span style="color: black;">:</span></t1>
+				<t1 id = "sseconds">0</t1>
+				<t1 id = "spd">&nbsp AM</t1>
+			</div>
+			<br>
+		</center>
+		<div>
+			<input class="text1" type="text" size="1" id="hh"> <t1 class="text1">Часов</t1>
+			<input class="text1" type="text" size="1" id="mm"> <t1 class="text1">Минут</t1>
+			<input class="text1" type="text" size="1" id="ss"> <t1 class="text1">Секунд</t1>
+			<t1 class="text1">Сообщение</t1> <input class="text1" type="comment" id="msg"><br>
+			<input class="button1" value="Создать ивент" type="button" onclick="settime()"><br><br>
+			<t1 class="text1">Ивенты:</t1><br>
+			<t1 class="text1" id="evnts"></t1>
+		</div>
+	</body>
+</html>
